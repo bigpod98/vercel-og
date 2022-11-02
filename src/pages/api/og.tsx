@@ -20,7 +20,7 @@ export default async function handler(req: NextRequest) {
   const firaSansLightData = await firaSansLight;
   const title = searchParams.get("title") ?? "Sample Title";
   const desc = searchParams.get("desc") ?? "Sample Description";
-  const siteName = searchParams.get("siteName") ?? "yehezgun.com";
+  const siteName = searchParams.get("siteName") ?? "brian.dev";
   const imgUrl =
     searchParams.get("imgUrl") ??
     "https://res.cloudinary.com/yehez/image/upload/v1646485864/yehez_avatar_transparent_swwqcq.png";
@@ -56,7 +56,7 @@ export default async function handler(req: NextRequest) {
             tw="font-medium text-xl"
             style={{ fontFamily: "FiraSans-Regular" }}
           >
-            Twitter: @yehezgun
+            Twitter: @bketelsen
           </p>
         </div>
       </div>

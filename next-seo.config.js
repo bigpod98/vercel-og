@@ -1,26 +1,26 @@
 /** @type {import('next-seo').DefaultSeoProps} */
 const defaultSEOConfig = {
-  defaultTitle: "YehezGun OG Generator",
+  defaultTitle: "BJK OG Generator",
   description: "OG Image Generator (using Vercel OG)",
-  canonical: "https://og-v2.yehezgun.com",
+  canonical: "https://og-v2.brian.dev",
   openGraph: {
-    url: "https://og-v2.yehezgun.com",
-    title: "YehezGun OG Generator",
+    url: "https://og-v2.brian.dev",
+    title: "BJK OG Generator",
     description: "OG Image Generator (using Vercel OG)",
     type: "website",
     images: [
       {
-        url: "https://og-v2.yehezgun.com/api/og?title=YehezGun%20OG&desc=OG%20Image%20Generator%20(using%20Vercel%20OG)&imgUrl=https://www.saashub.com/images/app/service_logos/61/ad5f7085bd71/large.png?1587515045&siteName=og-v2.yehezgun.com",
-        alt: "og-v2.yehezgun.com og-image",
+        url: "https://og-v2.brian.dev/api/og?title=YehezGun%20OG&desc=OG%20Image%20Generator%20(using%20Vercel%20OG)&imgUrl=https://www.saashub.com/images/app/service_logos/61/ad5f7085bd71/large.png?1587515045&siteName=og-v2.brian.dev",
+        alt: "og-v2.brian.dev og-image",
         width: 800,
         height: 600,
       },
     ],
-    site_name: "yehezgun-og",
+    site_name: "bjk-og",
   },
   twitter: {
-    handle: "@handle",
-    site: "@site",
+    handle: "@bketelsen",
+    site: "@bketelsen",
     cardType: "summary_large_image",
   },
   additionalLinkTags: [

@@ -29,9 +29,12 @@ export default async function handler(req: NextRequest) {
       <div tw="bg-zinc-800 w-full h-full flex flex-col">
         <div tw="w-full h-10/12 flex items-center justify-between px-24 text-white">
           <div tw="flex flex-col">
+          <div tw="flex flex-col max-w-2xl">
+
             <h1 tw="text-6xl" style={{ fontFamily: "FiraSans-Bold" }}>
               {title}
             </h1>
+            </div>
             <div tw="flex flex-col max-w-2xl">
             <h4 tw="text-4xl mt-8" style={{ fontFamily: "FiraSans-Light" }}>
               {desc}

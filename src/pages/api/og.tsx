@@ -23,7 +23,7 @@ export default async function handler(req: NextRequest) {
   const siteName = searchParams.get("siteName") ?? "brian.dev";
   const imgUrl =
     searchParams.get("imgUrl") ??
-    "https://res.cloudinary.com/yehez/image/upload/v1646485864/yehez_avatar_transparent_swwqcq.png";
+    "https://og.brian.dev/brian-head.jpg";
   return new ImageResponse(
     (
       <div tw="bg-zinc-800 w-full h-full flex flex-col">

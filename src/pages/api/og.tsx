@@ -32,7 +32,7 @@ export default async function handler(req: NextRequest) {
             <h1 tw="text-6xl" style={{ fontFamily: "FiraSans-Bold" }}>
               {title}
             </h1>
-            <div tw="max-w-2xl">
+            <div tw="flex flex-col max-w-2xl">
             <h4 tw="text-4xl mt-8" style={{ fontFamily: "FiraSans-Light" }}>
               {desc}
             </h4>

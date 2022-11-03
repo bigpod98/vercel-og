@@ -26,17 +26,19 @@ export default async function handler(req: NextRequest) {
     "https://res.cloudinary.com/yehez/image/upload/v1646485864/yehez_avatar_transparent_swwqcq.png";
   return new ImageResponse(
     (
-      <div tw="bg-gray-800 w-full h-full flex flex-col">
+      <div tw="bg-zinc-800 w-full h-full flex flex-col">
         <div tw="w-full h-10/12 flex items-center justify-between px-24 text-white">
           <div tw="flex flex-col">
-            <h1 tw="text-5xl" style={{ fontFamily: "FiraSans-Bold" }}>
+            <h1 tw="text-6xl" style={{ fontFamily: "FiraSans-Bold" }}>
               {title}
             </h1>
-            <h4 tw="text-2xl mt-8" style={{ fontFamily: "FiraSans-Light" }}>
+            <div tw="max-w-2xl">
+            <h4 tw="text-4xl mt-8" style={{ fontFamily: "FiraSans-Light" }}>
               {desc}
             </h4>
+            </div>
           </div>
-          <figure tw="bg-slate-600 rounded-full">
+          <figure tw="bg-zinc-600 rounded-full">
             <img
               src={imgUrl}
               alt="og-image"

@@ -20,10 +20,10 @@ export default async function handler(req: NextRequest) {
   const firaSansLightData = await firaSansLight;
   const title = searchParams.get("title") ?? "Sample Title";
   const desc = searchParams.get("desc") ?? "Sample Description";
-  const siteName = searchParams.get("siteName") ?? "brian.dev";
+  const siteName = searchParams.get("siteName") ?? "bigpod.si";
   const imgUrl =
     searchParams.get("imgUrl") ??
-    "https://og.brian.dev/brian-head.jpg";
+    "https://og.bigpod.si/bigpod-head.jpg";
   return new ImageResponse(
     (
       <div tw="bg-zinc-800 w-full h-full flex flex-col">
@@ -61,7 +61,7 @@ export default async function handler(req: NextRequest) {
             tw="font-medium text-xl"
             style={{ fontFamily: "FiraSans-Regular" }}
           >
-            Twitter: @bketelsen
+            Twitter: @bigpod98
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-# Brian'sOpenGraph v2
+# bigpod'sOpenGraph v2
 
 ![vercel-og](https://socialify.git.ci/yehezkielgunawan/vercel-og/image?description=1&descriptionEditable=Generate%20simple%20Open%20Graph%20Image%20through%20Vercel%20OG&logo=https%3A%2F%2Fwww.saashub.com%2Fimages%2Fapp%2Fservice_logos%2F61%2Fad5f7085bd71%2Flarge.png%3F1587515045&owner=1&theme=Dark)
 

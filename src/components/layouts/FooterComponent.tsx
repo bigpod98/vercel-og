@@ -9,7 +9,7 @@ const FooterComponent = () => {
         className="cursor-newtab font-semibold hover:underline"
         rel="noreferrer"
       >
-        {new Date().getFullYear()} | Brian Ketelsen
+        {new Date().getFullYear()} | Primož Ajdišek
       </a>
     </footer>
   );

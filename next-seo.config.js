@@ -10,7 +10,7 @@ const defaultSEOConfig = {
     type: "website",
     images: [
       {
-        url: "https://og.bigpod.si/api/og?title=YehezGun%20OG&desc=OG%20Image%20Generator%20(using%20Vercel%20OG)&imgUrl=https://www.saashub.com/images/app/service_logos/61/ad5f7085bd71/large.png?1587515045&siteName=og-v2.brian.dev",
+        url: "https://og.bigpod.si/api/og?title=YehezGun%20OG&desc=OG%20Image%20Generator%20(using%20Vercel%20OG)&imgUrl=https://www.saashub.com/images/app/service_logos/61/ad5f7085bd71/large.png?1587515045&siteName=og.bigpod.si",
         alt: "og.bigpod.si og-image",
         width: 800,
         height: 600,

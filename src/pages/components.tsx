@@ -23,7 +23,7 @@ const Components = () => {
             <h3>Regular Link</h3>
             <div className="flex flex-wrap gap-2">
               <UnstyledLink href="/">Internal Link</UnstyledLink>
-              <UnstyledLink href="https://brian.dev">
+              <UnstyledLink href="https://bigpod.si">
                 External Link
               </UnstyledLink>
             </div>
@@ -32,7 +32,7 @@ const Components = () => {
             <h3>Primary Link</h3>
             <div className="flex flex-wrap gap-2">
               <PrimaryLink href="/">Regular link</PrimaryLink>
-              <PrimaryLink href="https://brian.dev">
+              <PrimaryLink href="https://bigpod.si">
                 External link
               </PrimaryLink>
             </div>
@@ -41,7 +41,7 @@ const Components = () => {
             <h3>Underline Link</h3>
             <div className="flex flex-wrap gap-2">
               <UnderlineLink href="/">Internal Link</UnderlineLink>
-              <UnderlineLink href="https://brian.dev">
+              <UnderlineLink href="https://bigpod.si">
                 External Link
               </UnderlineLink>
             </div>
@@ -49,14 +49,14 @@ const Components = () => {
           <li className="space-y-1">
             <h3>Arrow Link</h3>
             <div className="flex flex-wrap gap-2">
-              <ArrowLink href="https://brian.dev" direction="left">
+              <ArrowLink href="https://bigpod.si" direction="left">
                 Direction Left
               </ArrowLink>
-              <ArrowLink href="https://brian.dev" direction="right">
+              <ArrowLink href="https://bigpod.si" direction="right">
                 Direction Right
               </ArrowLink>
               <ArrowLink
-                href="https://brian.dev"
+                href="https://bigpod.si"
                 direction="right"
                 as={UnstyledLink}
                 className="inline-flex items-center"
@@ -65,7 +65,7 @@ const Components = () => {
               </ArrowLink>
               <ArrowLink
                 as={ButtonLink}
-                href="https://brian.dev"
+                href="https://bigpod.si"
                 direction="right"
                 variant="outline"
               >
@@ -120,19 +120,19 @@ const Components = () => {
           <li className="space-y-1">
             <h3>Button Link Component</h3>
             <div className="flex flex-wrap gap-2">
-              <ButtonLink href="https://brian.dev" variant="primary">
+              <ButtonLink href="https://bigpod.si" variant="primary">
                 Primary Button
               </ButtonLink>
-              <ButtonLink href="https://brian.dev" variant="outline">
+              <ButtonLink href="https://bigpod.si" variant="outline">
                 Outline Button
               </ButtonLink>
-              <ButtonLink href="https://brian.dev" variant="ghost">
+              <ButtonLink href="https://bigpod.si" variant="ghost">
                 Ghost Button
               </ButtonLink>
-              <ButtonLink href="https://brian.dev" variant="light">
+              <ButtonLink href="https://bigpod.si" variant="light">
                 Light Button
               </ButtonLink>
-              <ButtonLink href="https://brian.dev" variant="dark">
+              <ButtonLink href="https://bigpod.si" variant="dark">
                 Dark Button
               </ButtonLink>
             </div>

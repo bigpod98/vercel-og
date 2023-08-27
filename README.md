@@ -6,7 +6,7 @@
 
 [![forthebadge](https://res.cloudinary.com/yehez/image/upload/v1635325228/made-by-typescript_mz1tue.svg)](https://forthebadge.com)
 
-Generate your Open Graph Image through Vercel's OG. Live demo can be accessed at [og-v2.brian.dev](https://og-v2.brian.dev).
+Generate your Open Graph Image through Vercel's OG. Live demo can be accessed at [og.bigpod.si](https://og.bigpod.si).
 
 But if you also find this template is useful, you also can use it. And of course, I'm open to any feedback. You can fork or clone this repo and make a PR here if you have some idea.
 

@@ -4,7 +4,7 @@ const FooterComponent = () => {
   return (
     <footer className="bottom-0 py-16 text-center">
       <a
-        href="https://brian.dev"
+        href="https://bigpod.si"
         target="_blank"
         className="cursor-newtab font-semibold hover:underline"
         rel="noreferrer"

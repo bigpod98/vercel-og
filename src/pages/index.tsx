@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   const [title, setTitle] = useState<string>("Title");
   const [desc, setDesc] = useState<string>("Description");
   const [imgUrl, setImgUrl] = useState<string>("");
-  const [siteName, setSiteName] = useState<string>("brian.dev");
+  const [siteName, setSiteName] = useState<string>("bigpod.si");
   const [isCopied, setIsCopied] = useState<boolean>(false);
   const ogUrl = new URL(
     `/api/og?title=${title}&desc=${desc}${
